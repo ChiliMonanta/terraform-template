@@ -1,0 +1,12 @@
+aws_profile = "my-aws"
+region = "eu-west-1"
+autoscale_min = 0
+autoscale_max = 1
+autoscale_desired = 1
+ami = "ami-ba346ec9"
+instance_type = "t2.micro"
+ssh_key_name = "myawskeyhome"
+env_name = "prod"
+cidr_block = "10.0.0.0/16"
+availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+public_subnets  = ["10.0.0.0/24", "10.0.16.0/24", "10.0.32.0/24"]
